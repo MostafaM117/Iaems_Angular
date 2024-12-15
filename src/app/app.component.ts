@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { initializeApp } from 'firebase/app';
 import { RouterOutlet } from '@angular/router';
+import { initializeApp } from 'firebase/app';
 
 import { FooterComponent } from './screenOne/shared/footer/footer.component';
 import { NavComponent } from "./screenOne/shared/nav/nav.component";
