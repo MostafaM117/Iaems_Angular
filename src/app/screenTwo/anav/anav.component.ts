@@ -2,13 +2,12 @@ import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-nav',
+  selector: 'app-anav',
   standalone: true,
   imports: [RouterModule],
-  templateUrl: './nav.component.html',
-  styleUrl: './nav.component.css'
+  templateUrl: './anav.component.html',
+  styleUrl: './anav.component.css'
 })
-export class NavComponent {
-  
+export class AnavComponent {
 
 }

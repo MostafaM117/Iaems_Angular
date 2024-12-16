@@ -7,25 +7,19 @@
     "@angular/core": {
       "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "39c684d0",
+      "fileHash": "d1dd60ca",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "b135ce0c",
+      "fileHash": "2a07dce1",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "7d5a16f0",
-      "needsInterop": false
-    },
-    "firebase/app": {
-      "src": "../../../../../../node_modules/firebase/app/dist/esm/index.esm.js",
-      "file": "firebase_app.js",
-      "fileHash": "1f683a9b",
+      "fileHash": "94c240c4",
       "needsInterop": false
     }
   },
