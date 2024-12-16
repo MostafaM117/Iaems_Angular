@@ -1,31 +1,31 @@
 {
-  "hash": "2f0ef373",
-  "configHash": "d13c07ea",
+  "hash": "592f8db1",
+  "configHash": "3b6070da",
   "lockfileHash": "eda5b95a",
-  "browserHash": "5f1db681",
+  "browserHash": "ce459ee3",
   "optimized": {
     "@angular/core": {
       "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "a67c6ef0",
+      "fileHash": "59d493bd",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "6b391dff",
+      "fileHash": "9c09ab11",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "5a34841c",
+      "fileHash": "f27e4f9e",
       "needsInterop": false
     },
     "firebase/app": {
       "src": "../../../../../../node_modules/firebase/app/dist/esm/index.esm.js",
       "file": "firebase_app.js",
-      "fileHash": "a458c380",
+      "fileHash": "e46aeaf9",
       "needsInterop": false
     }
   },

@@ -1,4 +1,4 @@
-<section class="py-5 bg-light">
+<section class="py-5">
 	<div class="container">
 		<div class="row justify-content-center align-items-center">
 			<div class="col-lg-6 mb-5 mb-lg-0">
@@ -10,28 +10,32 @@
 				<div class="ps-lg-5">
 					<div class="card shadow-lg border border-primary text-white text-left h-100">
 						<div class="card-body bg-primary p-4 p-xl-5">
-							<h2 class="pb-3 text-center">Please Enter Your ID And Password To Login.</h2>
+							<h2 class="pb-3 text-center">Please Enter Your Email And Password To Login.</h2>
 							<form>
 								<div class="mb-3">
-									<label class="form-label" for="name">ID:</label> <input class="form-control" id="name" type="text">
+									<label class="form-label" for="name">Email:</label> 
+									<input class="form-control" id="name" type="email" required>
 								</div>
 								<div class="mb-3">
-									<label class="form-label" for="email">Password:</label> <input class="form-control" id="email" type="email">
-									<div class="row mb-4">
-										<div class="col d-flex justify-content-center">
+									<label class="form-label" for="email">Password:</label> 
+									<input class="form-control" id="password" type="password" required>
+									<div class="row mb-4 Rememberme">
+										<div class="col d-flex">
 										  <!-- Checkbox -->
-										  <div class="form-check">
-											<input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+										  <div class="form-check" >
+											<input class="form-check-input" type="checkbox" value="" id="form2Example31" />
 											<label class="form-check-label" for="form2Example31"> Remember me </label>
 										  </div>
 										</div>
-									
-										<div class="col">
+										<div class="col d-flex justify-content-end">
 										  <!-- Simple link -->
 										  <a style="color: white;" href="#!">Forgot password?</a>
 										</div>
 									  </div>
-								</div><button class="btn btn-dark btn-lg" type="submit" [routerLink]="['/alogin']">Login</button>
+								</div>
+								<button class="btn btn-dark btn-lg" type="submit" [routerLink]="['/alogin']">
+									Login
+								</button>
 							</form>
 						</div>
 					</div>

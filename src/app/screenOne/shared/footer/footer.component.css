@@ -1,0 +1,12 @@
+#footer{
+  display: flex;
+  align-items: center;
+  background-color: #F8F9FA;
+  height: 1%;
+}
+.linkedin{
+  font-size: medium;
+  margin-left: 1rem !important;
+  margin-right: 1.5rem;
+
+}
