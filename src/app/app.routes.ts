@@ -6,7 +6,8 @@ import { LoginComponent } from './screenOne/login/login.component';
 import { BloginComponent } from './screenOne/blogin/blogin.component';
 import { AloginComponent } from './screenTwo/alogin/alogin.component';
 import { DashboardComponent } from './screenTwo/section_1/dashboard/dashboard.component';
-import { AccountComponent } from './screenTwo/section_4/account/account.component';
+import { AccountComponent } from './screenTwo/section_3/account/account.component';
+import { CoursesComponent } from './screenTwo/section_2/courses/courses.component';
 
 export const routes: Routes = [
     {path:'',redirectTo:"blogin/about",pathMatch:"full"},
@@ -23,9 +24,10 @@ export const routes: Routes = [
         path:'alogin',
         component:AloginComponent,
         children:[
+            {path:'',redirectTo:"dashboard",pathMatch:"full"},
             {path:"dashboard",component:DashboardComponent},
             {path:"account",component:AccountComponent},
-            // {path:"courses",component:Courses},
+            {path:"courses",component:CoursesComponent},
             // {path:"about",component:AboutComponent},
         ]
 
