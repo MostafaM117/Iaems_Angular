@@ -1,6 +1,9 @@
 body{margin-top:20px;}
 .schedule-table table thead tr {
-background: #86d4f5;
+background: #0D6EFD;
+}
+.container{
+  margin-top: 3%;
 }
 .schedule-table table thead th {
 padding: 25px 50px;
@@ -10,7 +13,7 @@ font-size: 20px;
 font-weight: 800;
 position: relative;
 border: 0;
-background: #86d4f5;
+background: #0D6EFD;
 
 }
 .schedule-table table thead th:before {
@@ -44,7 +47,6 @@ min-width: 165px;
 }
 .schedule-table table tbody td.active {
 position: relative;
-z-index: 10;
 transition: all 0.3s linear 0s;
 min-width: 165px;
 }
@@ -84,7 +86,7 @@ min-height: 100%;
 transform: scale(0);
 top: 0;
 left: 0;
-z-index: -1;
+z-index: 1;
 border-radius: 0.25rem;
 transition: all 0.3s linear 0s;
 }

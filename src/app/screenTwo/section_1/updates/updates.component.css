@@ -3,6 +3,9 @@ body{
     margin-top:20px;
 }
 
+.container{
+    margin-top: 4%;
+}
 .latest-update-card .card-block {
     padding-top: 0
 }

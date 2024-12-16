@@ -1,29 +1,33 @@
-<header class="header-area overlay">
-    <nav class="navbar navbar-expand-md navbar-dark">
-		<div class="container">			
-			<button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
-				<span class="menu-icon-bar"></span>
-				<span class="menu-icon-bar"></span>
-				<span class="menu-icon-bar"></span>
-			</button>
-			
-			<div id="main-nav" class="collapse navbar-collapse">
-				<ul class="navbar-nav ml-auto">
-                    <li><img alt="Free Frontend Logo" class="img-fluid" height="200" src="/assets/iaems.png" width="200"></li>
-					<li><a 
-						[routerLink]="['/alogin', 'dashboard']" routerLinkActive="active" class="nav-item nav-link">Dashboard
-					</a></li>
-					<li><a 
-						[routerLink]="['/alogin', 'courses']" routerLinkActive="active" class="nav-item nav-link">Courses
-					</a></li>
-					<li><a 
-						[routerLink]="['/alogin', 'account']" routerLinkActive="active" class="nav-item nav-link">Account
-					</a></li>
-					<!-- <li><a 
-						href="#" class="nav-item nav-link">About Us
-					</a></li>				 -->
-                </ul>
+<section>
+	<nav class="navbar navbar-expand-lg" id="nav_bar" 
+	style="
+	border-bottom: 2px solid #2DBE60;
+	/* border-left: 2px solid #2DBE60;
+	border-right: 2px solid #2DBE60; */
+	border-radius: 0px 0px 30px 30px ; 
+	padding: 10px; background-color: #F8F9FA;">
+		<div class="container">
+			<a class="navbar-brand" href=""><img alt="Free Frontend Logo" class="img-fluid" height="200" src="/assets/iaems.png" width="200"></a> <button aria-controls="navbarSupportedContent9" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent9" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent9">
+				<form class="d-flex align-items-center position-relative ms-lg-3">
+				</form>
+				<ul class="navbar-nav ms-auto my-2 my-lg-0">
+					<li class="nav-item me-4">
+						<a [routerLink]="['/alogin', 'dashboard']" routerLinkActive="active" class="nav-link">Dashboard</a>
+					</li>
+					<li class="nav-item me-4">
+						<a [routerLink]="['/alogin', 'courses']" routerLinkActive="active" class="nav-link">Courses</a>
+					</li>
+					<li class="nav-item">
+						<a [routerLink]="['/alogin', 'account']" routerLinkActive="active" class="nav-link">Account</a>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</nav>
-</header>
+</section>
+
+
+<!-- [routerLink]="['/alogin', 'dashboard']" routerLinkActive="active" class="nav-item nav-link">Dashboard -->
+<!-- [routerLink]="['/alogin', 'courses']" routerLinkActive="active" class="nav-item nav-link">Courses -->
+	<!-- [routerLink]="['/alogin', 'account']" routerLinkActive="active" class="nav-item nav-link">Account -->

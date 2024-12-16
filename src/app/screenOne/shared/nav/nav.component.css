@@ -1,0 +1,9 @@
+#nav_bar{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  padding: 10% 10%;
+}
+#nav_bar .container{
+  padding: 1%;
+}
