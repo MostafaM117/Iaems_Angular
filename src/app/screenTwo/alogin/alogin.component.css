@@ -1,0 +1,12 @@
+/* .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; 
+} */
+
+/* .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 20px;  Optional: Adds gap between the components
+  } 
+  */

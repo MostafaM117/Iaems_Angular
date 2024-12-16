@@ -17,9 +17,21 @@
 								</div>
 								<div class="mb-3">
 									<label class="form-label" for="email">Password:</label> <input class="form-control" id="email" type="email">
-								</div>
-								<div class="mb-3">
-								</div><button class="btn btn-dark btn-lg" type="submit">Login</button>
+									<div class="row mb-4">
+										<div class="col d-flex justify-content-center">
+										  <!-- Checkbox -->
+										  <div class="form-check">
+											<input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+											<label class="form-check-label" for="form2Example31"> Remember me </label>
+										  </div>
+										</div>
+									
+										<div class="col">
+										  <!-- Simple link -->
+										  <a style="color: white;" href="#!">Forgot password?</a>
+										</div>
+									  </div>
+								</div><button class="btn btn-dark btn-lg" type="submit" [routerLink]="['/alogin']">Login</button>
 							</form>
 						</div>
 					</div>
